@@ -5,7 +5,7 @@
 ## Instructions ✅
 
 1. Create a new React project by running `npm create vite@latest lab-3-crud`.
-2. Create at least 5 routes for your application:
+2. Create at least five routes for your application with `react-router-dom`:
 
     - Home `/`
     - Blog Listing `/blog`
