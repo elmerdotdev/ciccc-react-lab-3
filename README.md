@@ -13,7 +13,7 @@
     - Add Post `/blog/new`
     - Edit Post `/blog/edit/1` (where 1 is the id)
 
-3. Implement CRUD functionality for the the blog. Store the data and CRUD functions inside a `useReducer` hook. Place the reducer inside a `useContext` so that the reducer array and dispatch function are shared and can be accessed anywhere in the appplication. For the article properties, you can have:
+3. Implement CRUD functionality for the blog. Store the data and CRUD functions inside a `useReducer` hook. Place the reducer inside a `useContext` so that the reducer array and dispatch function are shared and can be accessed anywhere in the application. For the article properties, you can have:
 
     - id `string` (uuid)
     - title `string`
