@@ -24,7 +24,7 @@
 5. Add an **Edit** button inside the blog detail page which redirects you to the *Edit Post* route to modify the title and content.
 6. Add a **Delete** button inside the blog detail page which just removes the article from the reducer array. You can install a toast package such as `react-hot-toast` for the deletion notification.
 7. Create a header and footer component for your application. For the `Header.tsx`, include a navigation menu with links to your home and blog pages.
-8. Pass a static string as a prop to your header component called `firstname` and include your first name. Display your first name to the far right of your header. Since the `firstname` prop is static and doesn't change, memoized your header component by wrapping it inside a `memo` HOC.
+8. Pass a static string as a prop to your header component called `firstname` and include your first name. Display your first name to the far right of your header. Since the `firstname` prop is static and doesn't change, memoize your header component by wrapping it inside a `memo` HOC.
 9. For the footer component, just include the usual copyright text.
 10. Commit and push your changes once you are done.
 
